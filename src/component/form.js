@@ -19,7 +19,7 @@ export default function From(){
   const handleSubmit = (event) => {
     if((state.name == "") || (state.email == "") || (state.password == ""))
     {
-      alert("Please Fill All Required Fields");
+      alert("Please Fill All Required Fields ");
       event.preventDefault();
     }    
     else 
